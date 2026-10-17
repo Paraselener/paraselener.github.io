@@ -1,0 +1,29 @@
+- author: Gorprimal
+  avatar: /img/theme/avatar.png
+  date: 2026-10-17 23:33:26
+  key: key-1
+  content: |
+    {% note purple 'fas fa-wand-magic-sparkles' modern %}
+    停杯投箸不能食，拔剑四顾心茫然。
+    {% endnote %}
+    
+    ![Sunshine](/img/shuoshuo/sunshine.png)
+  tags:
+   # - 随笔
+    - 随想
+ 
+
+# 图片的引用需要和内容加一个空行  不然识别不出来 
+- author: Gorprimal
+  avatar: /img/theme/avatar.png
+  date: 2023-04-20 23:33:26
+  key: key-1
+  content: |
+    {% note green 'fas fa-wand-magic-sparkles' modern %}
+    白鸥没浩荡，万里谁能驯！
+    {% endnote %}
+    
+    ![Sunshine](/img/shuoshuo/sunshine.png)
+  tags:
+   # - 随笔
+    - 随想
