@@ -106,11 +106,15 @@ deploy:
   type: ''
 
 
-kramed:
-  gfm: true
-  pedantic: false
-  sanitize: false
-  tables: true
-  breaks: true
-  smartLists: true
-  smartypants: true
+markdown:
+  render:
+    html: true
+    breaks: true
+    linkify: true
+    typographer: true
+  anchors:
+    level: 1
+  plugins:
+    - name: '@renbaoshuo/markdown-it-katex'
+      options:
+        skipDelimitersCheck: true
